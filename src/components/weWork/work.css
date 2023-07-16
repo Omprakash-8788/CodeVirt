@@ -1,0 +1,45 @@
+.work-containers-contents{
+    padding: 100px 0px 0px 0px;
+    text-align: center;
+}
+
+.work-containers-contents h2{
+    text-align: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 7px;
+}
+
+.work-containers-contents p{
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    padding: 00px 220px 0px 220px;
+
+}
+
+@media (max-width:900px) {
+    
+.work-containers-contents p{
+    font-size: 16px;
+    text-align: center;
+    justify-content: center;
+    padding: 00px 100px 0px 100px;
+
+}
+    
+}
+
+@media (max-width:600px) {
+    .work-containers-contents p{
+        font-size: 14px;
+        text-align: center;
+        justify-content: center;
+        padding: 00px 50px 0px 50px;
+    
+    }
+    .work-containers-contents h2{
+        font-size: 20px;
+    }
+}

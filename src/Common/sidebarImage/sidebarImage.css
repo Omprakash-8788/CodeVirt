@@ -1,0 +1,28 @@
+.circle-line-containers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.circles {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #EB820F ;
+}
+
+.lines {
+  flex-grow: 1;
+  height: 2px;
+  background-color: #EB820F;
+}
+
+.circle-large {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #EB820F;
+  
+}

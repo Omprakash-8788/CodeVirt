@@ -1,0 +1,278 @@
+.clientReview-sec-containers {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.clientReview-sec-containers h2 {
+  letter-spacing: 7px;
+  padding: 200px 0 0 0px;
+  margin: 0;
+}
+.imagess {
+  z-index: -1;
+  width: 500px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.background-image-black {
+  background-image: url("../../../assets/sit.png");
+  height: 420px;
+  /* width: auto; */
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: rotate(140deg);
+  width: auto;
+  left: 60%;
+  top: 17%;
+  z-index: -2;
+}
+
+.img-img {
+  transform: rotate(0deg);
+  height: 400px;
+  z-index: 1;
+  position: absolute;
+  top: 17%;
+  left: 55%;
+}
+
+.clientReview-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.clientReview-section-containers {
+  display: flex;
+  width: 70%;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  gap: 100px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+.clientReview-box {
+  background-color: #eb820f;
+  height: 300px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 250px;
+  z-index: 1;
+}
+
+.trial {
+  display: flex;
+}
+
+@media (max-width: 1300px) {
+  .clientReview-section-containers {
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    gap: 75px;
+    margin: 0 auto;
+    padding-top: 100px;
+  }
+  .clientReview-box {
+    background-color: #eb820f;
+    height: 300px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    z-index: 1;
+    width: 250px;
+  }
+  
+}
+
+@media (max-width:1200px) {
+  .background-image-black {
+    background-image: url("../../../assets/sit.png");
+    height: 370px;
+    /* width: auto; */
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: rotate(140deg);
+    width: auto;
+    left: 60%;
+    top: 17%;
+    z-index: -2;
+  }
+  
+  .img-img {
+    transform: rotate(0deg);
+    height: 350px;
+    z-index: 1;
+    position: absolute;
+    top: 17%;
+    left: 55%;
+  }
+  
+}
+
+@media (max-width:900px) {
+  .background-image-black {
+    background-image: url("../../../assets/sit.png");
+    height: 320px;
+    /* width: auto; */
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: rotate(140deg);
+    width: auto;
+    left: 60%;
+    top: 15%;
+    z-index: -2;
+  }
+  
+  .img-img {
+    transform: rotate(0deg);
+    height: 300px;
+    z-index: 1;
+    position: absolute;
+    top: 16%;
+    left: 55%;
+  }
+  .clientReview-section-containers {
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 0 auto;
+    padding-top: 100px;
+  }
+  .clientReview-sec-containers h2 {
+    letter-spacing: 7px;
+    padding: 100px 0 0 0px;
+    margin: 0;
+  }
+  
+}
+
+@media (max-width:768px) {
+  .clientReview-section-containers {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 0 auto;
+    padding-top: 100px;
+  }
+  .clientReview-box {
+    background-color: #eb820f;
+    height: 300px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    
+    z-index: 1;
+    max-width: 200px;
+  }
+  .background-image-black {
+    background-image: url("../../../assets/sit.png");
+    height: 250px;
+    /* width: auto; */
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: rotate(140deg);
+    width: auto;
+    left: 55%;
+    top: 14%;
+    z-index: -2;
+  }
+  
+  .img-img {
+    transform: rotate(0deg);
+    height: 230px;
+    z-index: 1;
+    position: absolute;
+    top: 14%;
+    left: 52%;
+  }
+  
+}
+
+@media (max-width:532px) {
+  .background-image-black {
+    background-image: url("../../../assets/sit.png");
+    height: 250px;
+    /* width: auto; */
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: rotate(140deg);
+    width: auto;
+    left: 22%;
+    top: 12%;
+    z-index: -2;
+  }
+  
+  .img-img {
+    transform: rotate(0deg);
+    height: 230px;
+    z-index: 1;
+    position: absolute;
+    top: 12%;
+    left: 17%;
+  }
+  
+}
+
+@media (max-width:400px) {
+  .clientReview-section-containers {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 0;
+    padding: 0;
+    padding-top: 100px;
+
+  }
+  .clientReview-box {
+    background-color: #eb820f;
+    height: 300px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    
+    z-index: 1;
+    max-width: 260px;
+  }
+  
+}

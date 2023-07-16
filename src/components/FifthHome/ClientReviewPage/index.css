@@ -1,0 +1,244 @@
+.clientreview-top-containers {
+  height: 110vh;
+  margin-bottom: 100px;
+}
+
+.clientReview-sec-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.clientReview-sec-container h2 {
+  letter-spacing: 7px;
+  padding: 200px 0 0 0px;
+  margin: 0;
+}
+.imagess {
+  z-index: -1;
+  width: 500px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.clientReview-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.clientReview-section-container {
+  display: flex;
+  width: 70%;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  gap: 100px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+.clientReview-box {
+  background-color: #eb820f;
+  height: 300px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 60%;
+}
+
+.sitting-background-image {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  background-image: url("../../../assets/sit.png");
+  background-size: cover;
+  background-position: center;
+  transform: rotate(140deg);
+  z-index: -2;
+  left: 58%;
+  height: 500px;
+  top: 15%;
+  width: 38%;
+}
+.img-test {
+  height: 480px;
+  left: 50%;
+  position: absolute;
+  top: 10%;
+  width: 55%;
+}
+
+.bothimages {
+  top: 20%;
+  right: 43%;
+}
+
+@media (max-width: 1200px) {
+  .sitting-background-image {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    background-image: url("../../../assets/sit.png");
+    background-size: cover;
+    background-position: center;
+    transform: rotate(140deg);
+    z-index: -2;
+    left: 59%;
+    height: 400px;
+    top: 25%;
+    width: 40%;
+  }
+  .img-test {
+    height: 450px;
+    left: 53%;
+    position: absolute;
+    top: 20%;
+    width: 55%;
+  }
+  
+  .bothimages {
+    top: 20%;
+    right: 43%;
+    padding-top: 50px;
+  }
+  
+  .clientReview-box {
+    background-color: #eb820f;
+    height: 300px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 50%;
+  }
+  .clientreview-top-containers {
+    height: 110vh;
+    margin-bottom: 70px;
+  }
+  .clientReview-section-container {
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    /* margin: 0 auto; */
+    padding-top: 100px;
+    gap: 50px;
+  }
+}
+
+@media (max-width: 900px) {
+  .clientReview-section-container {
+    display: flex;
+    
+    width: 90%;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 100px;
+
+  }
+  .clientReview-box {
+    background-color: #eb820f;
+    height: 220px ;
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+    gap: 50px;
+    max-width: 160px;
+    
+  }
+  .clientreview-top-containers {
+    margin-bottom: 100px;
+  }
+  .sitting-background-image {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    background-image: url("../../../assets/sit.png");
+    background-size: cover;
+    background-position: center;
+    transform: rotate(140deg);
+    z-index: -2;
+    left: 57%;
+    height: 350px;
+    top: 29%;
+    width: 50%;
+  }
+  .img-test {
+    height: 400px;
+    left: 57%;
+    position: absolute;
+    top: 25%;
+    width: 55%;
+  }
+  
+  .bothimages {
+    top: 20%;
+    right: 43%;
+    padding-top: 50px 00px 0px 0px ;
+  }
+  
+}
+
+@media (max-width:600px) {
+  .sitting-background-image {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    background-image: url("../../../assets/sit.png");
+    background-size: cover;
+    background-position: center;
+    transform: rotate(140deg);
+    z-index: -2;
+    left: 57%;
+    height: 200px;
+    top: 45%;
+    width: 50%;
+  }
+  .img-test {
+    height: 200px;
+    left: 57%;
+    position: absolute;
+    top: 45%;
+    width: 55%;
+  }
+  
+  .bothimages {
+    top: 20%;
+    right: 43%;
+    padding-top: 50px 00px 0px 0px ;
+  }
+  .clientReview-section-container {
+    display: flex;
+    
+    width: 90%;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 100px;
+
+  }
+  .clientreview-top-containers{
+    margin-bottom: 0px !important;
+    
+  }
+  
+}
+
+
+@media (min-width:1200px) and (min-height:1500px) {
+  .clientreview-top-containers{
+    height: 35vh;
+   }
+}
+
+@media (min-width:760px) and (min-height:1020px) {
+  .clientreview-top-containers{
+    height: 62vh;
+   }
+}

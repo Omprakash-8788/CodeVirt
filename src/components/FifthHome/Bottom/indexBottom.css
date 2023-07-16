@@ -1,0 +1,203 @@
+.nnn{
+    height: auto;
+    margin: 100px 0px 00px 0px;
+  }
+  .top-bottom-container {
+    padding: 100px 0px 0px 0px;
+    width: 100%;
+    /* height: 54vh; */
+    height: 100%;
+  }
+  .sec-container-bottom {
+    padding-top: 200px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+  }
+  
+  .imgggg{
+    position: absolute;
+    top: 10%;
+    left: 21%;
+    height: 300px;
+    width: 60%;
+  }
+  
+  .sec-container-bottom h2{
+    color: #FFFFFF;
+    position: absolute;
+    top: 16%;
+    left: 27%;
+  }
+  
+  .sec-container-bottom p{
+    position: absolute;
+    top: 23%;
+    left: 27%;
+    color: #FFFFFF;
+    text-align: start;
+  }
+  
+  .bbb-buttomss{
+    position: absolute;
+    top: 44%;
+    left: 27%;
+  }
+  .bottom-cont {
+    /* position: absolute; */
+    background-color: #eb820f;
+    height: 400px;
+    border: 2px solid #eb820f;
+    width: 100%;
+    top: 50%;
+    z-index: -1;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    
+  }
+  
+  .bottom-img{
+    position: absolute;
+    top: -20%;
+    left: 55%;
+  
+  }
+
+  .basketball{
+    max-height: 480px;
+    width: 100%;
+  }
+  
+@media (max-width:1200px) {
+  .basketball{
+    max-height: 350px;
+  }
+  .bottom-img{
+    top: -10%;
+  }
+  .imgggg{
+    height: 250px;
+  }
+  .sec-container-bottom h2{
+    top: 10%;
+  }
+  .sec-container-bottom p{
+    top: 20%;
+  }
+  .bbb-buttomss{
+    top: 40%;
+  }
+  .bottom-cont{
+    height: 300px;
+  }
+  
+}
+
+ 
+@media (max-width:900px) {
+  .basketball{
+    max-height: 300px;
+  }
+  .bottom-img{
+    top: -6%;
+    width: 40%;
+  }
+  .imgggg{
+    height: 220px;
+    top: 15%;
+  }
+  .sec-container-bottom h2{
+    top: 15%;
+    left: 25%;
+    position: absolute;
+    font-size: 19px;
+  }
+  .sec-container-bottom p{
+    top: 23%;
+    left: 25%;
+    font-size: 14px;
+  }
+  .bbb-buttomss{
+    top: 42%;
+    left: 25%;
+    
+  }
+  .bottom-cont{
+    height: 300px;
+  }
+  .nnn{
+    margin-top: 200px;
+  }
+  
+}
+
+@media (max-width:600px) {
+  .basketball{
+    max-height: 300px;
+  }
+  .bottom-img{
+    top: 2%;
+    width: 40%;
+  }
+  .imgggg{
+    height: 220px;
+    width: 80%;
+    top: 15%;
+    left: 10%;
+  }
+  .sec-container-bottom h2{
+    top: 15%;
+    left: 15%;
+    position: absolute;
+    font-size: 19px;
+  }
+  .sec-container-bottom p{
+    top: 23%;
+    left: 15%;
+    font-size: 14px;
+  }
+  .bbb-buttomss{
+    top: 42%;
+    left: 15%;
+    
+  }
+  .bottom-cont{
+    height: 300px;
+  }
+  .nnn{
+    margin-top: 200px;
+  }
+  
+}
+
+@media (max-width:469px) {
+  .sec-container-bottom h2{
+    top: 15%;
+    left: 15%;
+    position: absolute;
+    font-size: 15px;
+  }
+  .sec-container-bottom p{
+    top: 23%;
+    left: 15%;
+    font-size: 11px;
+  }
+  .imgggg{
+    height: 180px;
+    width: 80%;
+    top: 15%;
+    left: 10%;
+  }
+  .nnn{
+    margin-top: 200px;
+  }
+  .bbb-buttomss{
+    top: 39%;
+    left: 15%;
+    
+  }
+  .basketball{
+    max-height: 400px;
+    top: 20%;
+  }
+}

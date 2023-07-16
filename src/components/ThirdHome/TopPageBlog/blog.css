@@ -1,0 +1,365 @@
+.top-blog-container {
+}
+.sec-blog-container {
+  margin: 180px 220px 150px 220px;
+  border: 5px solid #eb820f;
+  height: 320px;
+  position: relative;
+  border-radius: 10px;
+}
+.sec-blog-container p {
+  text-align: start;
+  padding: 30px 0px 0px 30px;
+  margin-right: 350px;
+  font-size: 16px;
+}
+.weblog-box {
+  position: absolute;
+  top: -13%;
+  width: 100%;
+  left: 5%;
+}
+
+.button-talk {
+  margin-left: 50px;
+  margin-top: 20px;
+  min-width: 100px;
+}
+
+.img-rock {
+  position: absolute;
+  left: 60%;
+  z-index: 1;
+  top: -55%;
+  height: 500px;
+  width: 450px;
+}
+
+.contents-box {
+  margin: 70px 200px 0px 200px;
+  border-radius: 20px;
+}
+
+.first-content-box {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px;
+  background-color: #d9d9d9;
+}
+
+.first-boxes {
+  background-color: #eb820f;
+  border-radius: 10px;
+  flex: 1;
+  height: 330px;
+}
+
+.second-boxes {
+  flex: 1;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+}
+.sss {
+  display: flex;
+  margin-left: 20px;
+}
+.dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: rgb(6, 6, 6);
+  margin: 25px 0px 0px 5px;
+}
+
+.names-alina {
+  margin: 15px 0px 0px 5px;
+}
+
+.contents-heading {
+  margin: 0px 20px 0px 20px;
+}
+.contents-heading h2 {
+  margin: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.contents-heading hr {
+  width: 80%;
+  margin-top: 0;
+  padding-top: 0;
+  margin-right: 100px;
+  border-width: 2px;
+  border-color: black;
+}
+.sidebarimage-section {
+  padding-top: 20px;
+  max-width: 74%;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+@media (max-width: 1300px) {
+  .img-rock {
+    position: absolute;
+    left: 60%;
+    z-index: 1;
+    top: -45%;
+    height: 450px;
+    width: 400px;
+  }
+  .sec-blog-container p {
+    text-align: start;
+    padding: 30px 0px 0px 30px;
+    margin-right: 280px;
+    font-size: 16px;
+  }
+  .sec-blog-container {
+    margin: 150px 170px 150px 170px;
+    border: 5px solid #eb820f;
+    height: 320px;
+    position: relative;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .sec-blog-container {
+    margin: 120px 120px 150px 120px;
+    border: 5px solid #eb820f;
+    height: 320px;
+    position: relative;
+    border-radius: 10px;
+  }
+  .img-rock {
+    position: absolute;
+    left: 63%;
+    z-index: 1;
+    top: -28%;
+    height: 400px;
+    width: 350px;
+  }
+  .sec-blog-container p {
+    text-align: start;
+    padding: 30px 0px 0px 30px;
+    margin-right: 250px;
+    font-size: 16px;
+  }
+
+  .button-talk {
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width:1000px) {
+  .sec-blog-container {
+    margin: 120px 80px 150px 80px;
+    border: 5px solid #eb820f;
+    height: 320px;
+    position: relative;
+    border-radius: 10px;
+  }
+  
+}
+
+
+@media (max-width:900px) {
+  .sec-blog-container {
+    margin: 120px 50px 150px 50px;
+    border: 5px solid #eb820f;
+    height: 320px;
+    position: relative;
+    border-radius: 10px;
+  }
+  .img-rock {
+    position: absolute;
+    left: 60%;
+    z-index: 1;
+    top: -22%;
+    height: 380px;
+    width: 300px;
+  }
+  .sec-blog-container p {
+    text-align: start;
+    padding: 20px 80px 0px 25px;
+    margin-right: 250px;
+    font-size: 14px;
+  }
+
+  .button-talk {
+    margin-left: 30px;
+    margin-top: 15px;
+  }
+  .weblog-box {
+    position: absolute;
+    top: -13%;
+    width: 100%;
+    left: 9%;
+    z-index: 1;
+  }
+  
+}
+
+@media (max-width:700px) {
+  .img-rock {
+    position: absolute;
+    left: 55%;
+    z-index: 1;
+    top: -22%;
+    height: 380px;
+    width: 300px;
+  }
+  .sec-blog-container p {
+    text-align: start;
+    padding: 20px 30px 0px 25px;
+    margin-right: 200px;
+    font-size: 13px;
+  }
+  
+}
+
+@media (max-width:600px) {
+  .sec-blog-container {
+    margin: 50px 20px 150px 20px;
+    border: 5px solid #eb820f;
+    height: 330px;
+    position: relative;
+    border-radius: 10px;
+  }
+  .img-rock {
+    position: absolute;
+    left: 62%;
+    z-index: 1;
+    top: -1%;
+    height: 300px;
+    width: 220px;
+  }
+  .sec-blog-container p {
+    text-align: start;
+    padding: 20px 30px 0px 15px;
+    margin-right: 130px;
+    font-size: 14px;
+  }
+
+  .button-talk {
+    margin-left: 30px;
+    margin-top: 15px;
+  }
+  .weblog-box {
+    position: absolute;
+    top: -5%;
+    width: 100%;
+    left: 9%;
+    z-index: 1;
+  }
+  .contents-box {
+    margin: 70px 30px 0px 30px !important;
+    border-radius: 20px;
+  }
+  .first-content-box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    background-color: #d9d9d9;
+  }
+  .first-boxes{
+    max-height: 280px;
+    max-width: 150px;
+  
+  }
+  .second-boxes{
+    max-height: 280px;
+  }
+  .sss p{
+    margin: 12px 0px 0px 0px;
+    font-size: 12px !important;
+  }
+  .names-alina{
+    margin: 14px 0px 0px 05px;
+    font-size: 13px;
+  }
+  .contents-heading h2{
+    font-size: 15px !important;
+  }
+ .contents-heading h4{
+  margin-top: 0px;
+  font-size: 12px !important;
+ }
+
+}
+
+@media (max-width:500px) {
+  .img-rock{
+    left: 55%;
+  }
+  
+}
+@media (max-width:468px) {
+  .sec-blog-container {
+    margin: 50px 10px 150px 10px;
+    border: 5px solid #eb820f;
+    height: 330px;
+    position: relative;
+    border-radius: 10px;
+
+  }
+  .img-rock {
+    position: absolute;
+    left: 45%;
+    z-index: 1;
+    top: -1%;
+    height: 300px;
+    width: 220px;
+  }
+  .sec-blog-container p {
+    text-align: start;
+    padding: 30px 0px 0px 15px;
+    margin-right: 150px;
+    font-size: 12px;
+  }
+
+  .button-talk {
+    margin-left: 30px;
+    margin-top: 15px;
+    width: 100%;
+  }
+  .weblog-box {
+    position: absolute;
+    top: -0%;
+    width: 100%;
+    left: 5%;
+    z-index: 1;
+  }
+  .contents-heading h4{
+    margin: 0px 0px 07px 0px;
+    padding: 0;
+    
+   
+  }
+  .contents-heading h2{
+    padding: 0;
+    margin: 2px 0px 0px 0px !important;
+  }
+  .first-boxes{
+    max-width: 100px;
+  }
+  .second-boxes{
+    min-width: 210px;
+  }
+  .sec-blog-container p{
+    padding: 3px 0px 0px 10px;
+  }
+  .img-rock{
+    width: 50%;
+    left: 55%;
+    padding: 0;
+    margin: 0;
+  }
+  .weblog-box{
+    top: -5%;
+    left: 12%;
+  }
+}

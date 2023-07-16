@@ -1,0 +1,251 @@
+.homepage-container {
+  min-width: 100%;
+  margin: 0px 00px 200px 00px;
+}
+
+.homepage-sec-container {
+  margin: 0px 300px 0px 300px;
+  text-align: center;
+}
+
+.homepage-sec-container h2 {
+  color: white;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+.homepage-sec-container span {
+  color: #eb820f;
+}
+.space-image {
+  height: 180px;
+  margin: 0 auto;
+  border-radius: 20px;
+  width: 75%;
+  /* max-width: 650px; */
+  
+}
+.space-image-text {
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  color: white;
+}
+
+.homeimage-container {
+  padding-top: 50px;
+  position: relative;
+}
+.space-image-text-para {
+  position: absolute;
+  top: 30%;
+  left: 37%;
+  color: white;
+}
+.space-image-button {
+  position: absolute;
+  top: 90%;
+  left: 40%;
+  color: white;
+}
+.jumpingAstro-celeb {
+  position: absolute;
+  top: -30%;
+  left: 50%;
+  height: 400px;
+}
+
+.space-images-first{
+  position: absolute;
+  height: 130px;
+  min-width: 300px;
+  width: 100%;
+}
+
+.astronaut-first {
+  position: absolute;
+  height: 260px;
+  top: 35%;
+  left: 6%;
+}
+
+.space-astro-container {
+  padding-top: 180px;
+  position: relative;
+}
+@media (max-width: 1300px) {
+  .homepage-container {
+    margin: 0px 00px 200px 00px;
+  }
+  .homepage-sec-container {
+    margin: 0px 200px 20px 200px;
+    text-align: center;
+  }
+  .space-images {
+    position: absolute;
+    height: 130px;
+    min-width: 300px;
+    width: 100%;
+    top: 100%;
+  }
+  .space-image-text {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    color: white;
+  }
+
+  .astronaut {
+    position: absolute;
+    height: 260px;
+    top: -20%;
+    left: 6%;
+  }
+}
+
+@media (max-width:900px) {
+  .homepage-sec-container h3{
+    padding-top: 0px;
+    width: 100%;
+  }
+  
+.homepage-sec-container {
+  margin: 0px 50px 0px 50px !important;
+  text-align: center;
+}
+.space-image-text {
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  width: auto;
+  color: white;
+}
+  
+ .jumpingAstro-celeb{
+  position: absolute;
+  top: -30%;
+  left: 50%;
+  height: 3500px;
+} 
+}
+
+@media (max-width: 1200px) {
+  .homepage-container {
+    margin: 0px 00px 200px 00px;
+  }
+  .homepage-sec-container {
+    margin: 0px 130px 20px 130px;
+    text-align: center;
+  }
+  .space-images {
+    position: absolute;
+    height: 130px;
+    min-width: 300px;
+    width: 100%;
+    top: 100%;
+  }
+
+  .astronaut {
+    position: absolute;
+    height: 260px;
+    top: -20%;
+    left: 6%;
+  }
+  .jumpingAstro-celeb {
+    position: absolute;
+    top: -15%;
+    left: 55%;
+    height: 350px;
+  }
+}
+
+@media (max-width: 600px) {
+  
+  .homepage-sec-container {
+    margin: 0px 50px 20px 80px;
+    text-align: center;
+  }
+  .space-images {
+    position: absolute;
+    height: 130px;
+    min-width: 250px;
+    width: 100%;
+    top: 100%;
+  }
+
+  .astronaut {
+    position: absolute;
+    height: 260px;
+    top: -20%;
+    left: 6%;
+  }
+  .jumpingAstro-celeb {
+    position: absolute;
+    top:-23%;
+    left: 55%;
+    height: 250px;
+  }
+  .space-image {
+    height: 130px;
+    /* margin: 0 auto;
+    max-width: 360px; */
+    width: 100%;
+    
+  }
+  .homepage-sec-container h3{
+    font-size: 15px;
+  }
+  .homepage-sec-container h2{
+    left: 4%;
+    top: 20%;
+    font-size: 20px;
+  }
+  .space-image-text-para{
+    font-size: 14px;
+    top: 34%;
+  }
+}
+@media (max-width: 420px) {
+  .homepage-sec-container h2 {
+    text-align: center;
+  }
+  .homepage-sec-container {
+    margin: 0px 30px 0px 30px !important;
+  }
+  .space-image {
+    width: 100%;
+    position: relative;
+  }
+  .astronaut {
+    position: relative;
+    top: 20%;
+  }
+  .space-image-button {
+    top: 88%;
+    left: 30%;
+  }
+  .space-image-text {
+    position: absolute;
+    top: 82%;
+    left: 30%;
+    font-size: 15px;
+  }
+  .space-image-text-para {
+    position: absolute;
+    top: 35%;
+    left: 20%;
+  }
+  .jumpingAstro-celeb {
+    position: absolute;
+    top: -10%;
+    left: 55%;
+    height: 170px;
+  }
+
+  .homepage-sec-container h3{
+    font-size: 14px;
+  }
+  
+  
+}

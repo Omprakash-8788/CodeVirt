@@ -1,0 +1,47 @@
+.weblog-container{
+    background-color: #eb820f;
+    height: fit-content;
+    border-radius: 30px;
+    color: white;
+    letter-spacing: 5px;
+    max-width: 230px;
+    text-align: center;
+}
+
+
+@media (max-width:600px) {
+    .weblog-container{
+        background-color: #eb820f;
+        height: fit-content;
+        border-radius: 30px;
+        color: white;
+        letter-spacing: 5px;
+        max-width: 180px;
+        text-align: center;
+       
+    }
+    .weblog-container h1{
+        padding: 0px;
+        margin: 0px;
+        font-size: 17px;
+    }
+}
+
+@media (max-width:468px) {
+    .weblog-container{
+        background-color: #eb820f;
+        height: fit-content;
+        border-radius: 30px;
+        color: white;
+        letter-spacing: 5px;
+        max-width: 150px;
+        text-align: center;
+        max-height: 25px;
+       
+    }
+    .weblog-container h1{
+        padding: 0px;
+        margin: 0px;
+        font-size: 15px;
+    }
+}

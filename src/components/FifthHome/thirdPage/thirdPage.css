@@ -1,0 +1,150 @@
+.thirdpage-top-container {
+  margin: 100px 0px 0px 0px;
+}
+
+.thirdpage-container {
+  text-align: center;
+}
+
+.thirdpage-container h1 {
+  padding: 0;
+  margin: 0;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+.thirdpage-container h4 {
+  text-align: center;
+}
+
+.contents-box {
+  margin: 70px 200px 0px 200px;
+  border-radius: 20px;
+}
+
+.first-content-box {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px;
+  background-color: #d9d9d9;
+}
+
+.first-boxes {
+  background-color: #eb820f;
+  border-radius: 10px;
+  flex: 1;
+  height: 330px;
+}
+
+.second-boxes {
+  flex: 1;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+}
+.sss {
+  display: flex;
+  margin-left: 20px;
+}
+.dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: rgb(6, 6, 6);
+  margin: 25px 0px 0px 5px;
+}
+
+.name-box {
+  margin: 15px 0px 0px 5px;
+  background-color: none;
+}
+
+.contents-heading {
+  margin: 0px 20px 0px 20px;
+}
+.contents-heading h2 {
+  margin: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.contents-heading hr {
+  width: 80%;
+  margin-top: 0;
+  padding-top: 0;
+  margin-right: 100px;
+  border-width: 2px;
+  border-color: black;
+}
+.moreprojects {
+  position: absolute;
+  margin: 30px 0px 0px 0px;
+  left: 45%;
+  width: 20px;
+  height: 35px;
+  font-size: 18px;
+}
+
+@media (max-width: 1200px) {
+  .contents-box {
+    margin: 70px 150px 0px 150px;
+    border-radius: 20px;
+  }
+  .contents-heading h2 {
+    margin: 10px 0px 0px 0px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 22px;
+  }
+  .contents-heading h4 {
+    font-size: 14px;
+  }
+  .name-box {
+    margin: 14px 0px 0px 5px;
+    background-color: none;
+    font-size: 15px;
+  }
+  .sss p {
+    font-size: 15px;
+    margin: 14px 0px 0px 0px;
+  }
+  .dot {
+    margin: 22px 0px 0px 5px;
+  }
+}
+
+@media (max-width: 900px) {
+  .contents-box {
+    margin: 70px 70px 0px 70px;
+    border-radius: 20px;
+  }
+  .contents-heading h2 {
+    margin: 10px 0px 0px 0px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+  .contents-heading h4 {
+    font-size: 13px;
+  }
+  .name-box {
+    margin: 14px 0px 0px 5px;
+    background-color: none;
+    font-size: 13px;
+  }
+  .sss p {
+    font-size: 13px;
+    margin: 14px 0px 0px 0px;
+  }
+  .dot {
+    margin: 20px 0px 0px 5px;
+  }
+  .moreprojects{
+    margin: 20px auto;
+  }
+}
+
+@media (max-width:400px) {
+  .moreprojects{
+    margin: 20px auto;
+  }
+}

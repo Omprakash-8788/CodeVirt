@@ -1,0 +1,184 @@
+.top-service-conts {
+  padding-top: 50px;
+  margin: 0;
+}
+
+.astroPhotography {
+  height: 230px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.ourservices-sec-container {
+  margin: 50px 200px 20px 200px;
+}
+.ourservices-section-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 100px;
+  text-align: center;
+  
+}
+
+.services-box {
+  background-color: #eb820f;
+  height: 200px;
+  border-radius: 20px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 250px;
+  gap: 200px;
+  margin: 0 auto;
+ 
+}
+
+.last-cont {
+  padding-top: 50px;
+}
+.service-heading {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 8px;
+}
+.box-texts {
+  position: absolute;
+  bottom: 0;
+  color: white;
+}
+
+.paragraph-text{
+  width: auto;
+}
+
+@media (max-width:1300px) {
+  .services-box {
+    background-color: #eb820f;
+    height: 180px;
+    border-radius: 20px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .ourservices-sec-container {
+    margin: 50px 150px 20px 150px;
+  }
+  .ourservices-section-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    gap: 70px;
+  }
+}
+
+@media (max-width:1200px) {
+  .services-box {
+    background-color: #eb820f;
+    height: 180px;
+    border-radius: 20px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+  }
+  .ourservices-sec-container {
+    margin: 50px 100px 20px 100px;
+  }
+  .ourservices-section-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    gap: 50px;
+  }
+  .paragraph-text{
+    font-size: 14px;
+  }
+  .astroPhotography {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+
+@media (max-width:900px) {
+  .services-box {
+    background-color: #eb820f;
+    height: 170px;
+    border-radius: 20px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .ourservices-sec-container {
+    margin: 50px 40px 20px 40px;
+  }
+  .ourservices-section-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    gap: 40px;
+    flex-wrap: wrap;
+    /* min-width: 150px; */
+
+  }
+  .paragraph-text{
+    font-size: 12px;
+  }
+  .astroPhotography {
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+
+
+@media (max-width:400px) {
+  
+.ourservices-sec-container {
+  margin: 50px 00px 20px 00px;
+}
+.ourservices-section-container {
+  display: block;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 100px;
+  text-align: center;
+  
+}
+
+.services-box {
+  background-color: #eb820f;
+  height: 200px;
+  border-radius: 20px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 70%;
+  gap: 200px;
+ 
+}
+.paragraph-text{
+  width: 100%;
+  margin: 20px auto;
+  padding: 0px 20px 0px 0px;
+}
+
+}
+  

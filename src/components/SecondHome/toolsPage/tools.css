@@ -1,0 +1,126 @@
+.tools-top-container {
+  margin-top: 100px;
+}
+.tools-sec-container {
+  text-align: center;
+}
+
+.tools-sec-container h1 {
+  margin: 0;
+  letter-spacing: 7px;
+  text-align: center;
+}
+
+.tools-content-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.tools-sec-container h3 {
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  padding: 00px 220px 0px 220px;
+}
+
+.tools-box {
+  margin-bottom: 20px;
+  border: 5px solid #eb820f;
+  width: 300px;
+  height: 70px;
+  border-radius: 15px;
+}
+
+.tools-circle {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #eb820f;
+  margin: 0 auto;
+}
+
+.tools-image{}
+
+@media (max-width:900px) {
+  .tools-top-container{
+    padding: 0px 50px 0px 50px;
+  }
+  .tools-image{
+    width: 95%;
+    height: 400px;
+    
+  }
+  .tools-sec-container h3 {
+    font-size: 18px;
+    text-align: center;
+    justify-content: center;
+    padding: 00px 100px 0px 100px;
+  }
+  
+  .tools-box {
+    margin-bottom: 20px;
+    border: 5px solid #eb820f;
+    max-width: 230px;
+    height: 50px;
+    border-radius: 15px;
+  }
+}
+
+@media (max-width:600px) {
+  
+  .tools-top-container{
+    padding: 0px 50px 0px 50px;
+  }
+  .tools-image{
+    width: 95%;
+    height: 300px;
+    
+  }
+  .tools-sec-container h3 {
+    font-size: 18px;
+    text-align: center;
+    justify-content: center;
+    padding: 00px 30px 0px 30px;
+  }
+  
+  .tools-box {
+    margin-bottom: 20px;
+    border: 5px solid #eb820f;
+    max-width: 200px;
+    height: 40px;
+    border-radius: 15px;
+  }
+  
+}
+
+@media (max-width:500px) {
+  .tools-content-container{
+    display: block;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .tools-top-container{
+    padding: 0px 20px 0px 20px;
+  }
+  .tools-image{
+    width: 95%;
+    height: 300px;
+    
+  }
+  .tools-sec-container h3 {
+    font-size: 18px;
+    text-align: center;
+    justify-content: center;
+    padding: 00px 30px 0px 30px;
+  }
+  
+  .tools-box {
+    border: 5px solid #eb820f;
+    max-width: 250px;
+    height: 40px;
+    border-radius: 15px;
+    margin: 20px auto;
+  }
+  
+}

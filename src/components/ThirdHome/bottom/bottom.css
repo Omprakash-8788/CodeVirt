@@ -1,0 +1,281 @@
+
+.yoga-pose-container{
+    height: auto;
+    margin-top: 100px;
+  }
+  .top-bottom-container {
+    padding: 100px 0px 0px 0px;
+    width: 100%;
+    /* height: 54vh; */
+    height: 100%;
+  }
+  .sec-container-blogpage{
+    padding-top: 200px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+  }
+  
+  .imggggs-sitting{
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    height: 270px;
+    width: 50%;
+  }
+  
+  .h-two-heading{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 12%;
+    left: 27%;
+    z-index: 1;
+
+
+  }
+  .sec-containers-paras{
+    position: absolute;
+    top: 20%;
+    left: 27%;
+    color: #FFFFFF;
+    text-align: start;
+    font-size: 18px;
+  }
+
+  
+  .bbb-button{
+    position: absolute;
+    top: 44%;
+    left: 27%;
+  }
+  .bottom-contyellow {
+    /* position: absolute; */
+    background-color: #eb820f;
+    height: 400px;
+    border: 2px solid #eb820f;
+    width: 100%;
+    top: 50%;
+    z-index: -1;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    
+  }
+.yoga-pose{
+    position: absolute;
+    top: -17%;
+    left: 53%;
+    height: 400px;
+    width: 28%;
+
+}
+
+@media (max-width:1200px) {
+  .imggggs-sitting{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    height: 270px;
+    width: 60%;
+  }
+  .h-two-heading{
+    position: absolute;
+    top: 12%;
+    left: 22%;
+    z-index: 1;
+  }
+  .sec-containers-paras{
+    position: absolute;
+    top: 20%;
+    left: 22%;
+    color: #FFFFFF;
+    text-align: start;
+    font-size: 18px;
+  }
+  .bbb-button{
+    position: absolute;
+    top: 44%;
+    left: 22%;
+  }
+  .yoga-pose{
+    position: absolute;
+    top: -10%;
+    left: 55%;
+    height: 380px;
+    width: 30%;
+
+}
+.bottom-cont-yellow {
+  /* position: absolute; */
+  background-color: #eb820f;
+  height: 30px;
+  border: 2px solid #eb820f;
+  width: 100%;
+  top: 50%;
+  z-index: -1;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  
+}
+
+}
+
+@media (max-width:900px) {
+  .imggggs-sitting{
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    height: 270px;
+    width: 70%;
+  }
+  .h-two-heading{
+    position: absolute;
+    top: 12%;
+    left: 18%;
+    z-index: 1;
+
+  }
+  .sec-containers-paras{
+    position: absolute;
+    top: 23%;
+    left: 18%;
+    color: #FFFFFF;
+    text-align: start;
+    font-size: 15px;
+  }
+  .bbb-button{
+    position: absolute;
+    top: 42%;
+    left: 18%;
+  }
+  .yoga-pose{
+    position: absolute;
+    top: -10%;
+    left: 57%;
+    height: 380px;
+    width: 35%;
+
+}
+.bottom-cont-yellow {
+  /* position: absolute; */
+  background-color: #eb820f;
+    height: 400px;
+    border: 2px solid #eb820f;
+    width: 100%;
+    top: 50%;
+    z-index: -1;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  
+}
+
+}
+
+@media (max-width:600px) {
+  .imggggs-sitting{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    height: 230px;
+    width: 80%;
+  }
+  .h-two-heading{
+    position: absolute;
+    top: 12%;
+    left: 14%;
+    z-index: 1;
+    font-size: 19px;
+
+  }
+  .sec-containers-paras{
+    position: absolute;
+    top: 20%;
+    left: 14%;
+    color: #FFFFFF;
+    text-align: start;
+    font-size: 13px;
+  }
+  .bbb-button{
+    position: absolute;
+    top: 38%;
+    left: 14%;
+  }
+  .yoga-pose{
+    position: absolute;
+    top: -20%;
+    left: 63%;
+    height: 350px;
+    width: 35%;
+
+}
+.bottom-contyellow {
+  /* position: absolute; */
+  background-color: #eb820f;
+  height: 300px;
+  border: 2px solid #eb820f;
+  width: 100%;
+  top: 50%;
+  z-index: -1;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  
+}
+
+}
+
+@media (max-width:400px) {
+  .sec-container-blogpage{
+    padding-top: 200px;
+
+  }
+
+  .imggggs-sitting{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    height: 200px;
+    width: 90%;
+  }
+  .h-two-heading{
+    position: absolute;
+    top: 14%;
+    left: 10%;
+    z-index: 1;
+    font-size: 19px;
+
+  }
+  .sec-containers-paras{
+    position: absolute;
+    top: 22%;
+    left: 10%;
+    color: #FFFFFF;
+    text-align: start;
+    font-size: 13px;
+  }
+  .bbb-button{
+    position: absolute;
+    top: 38%;
+    left: 10%;
+  }
+  .yoga-pose{
+    position: absolute;
+    top: -10%;
+    left: 63%;
+    height: 350px;
+    width: 39%;
+    z-index: 1;
+
+}
+.bottom-contyellow {
+  /* position: absolute; */
+  background-color: #eb820f;
+  height: 320px;
+  border: 2px solid #eb820f;
+  width: 100%;
+  top: 50%;
+  z-index: -1;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  
+}
+
+}

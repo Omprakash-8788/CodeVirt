@@ -1,0 +1,307 @@
+
+.nnn {
+  height: auto;
+}
+.top-bottom-container {
+  padding: 100px 0px 0px 0px;
+  width: 100%;
+  /* height: 54vh; */
+  height: 100%;
+}
+.sec-container {
+  padding-top: 200px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.imggggsss {
+  position: absolute;
+  top: 13%;
+  left: 25%;
+  height: 250px;
+  width: 52%;
+}
+
+.sec-container h2 {
+  color: #ffffff;
+  position: absolute;
+  top: 16%;
+  left: 27%;
+  z-index: 1;
+}
+
+.sec-container p {
+  position: absolute;
+  top: 23%;
+  left: 27%;
+  color: #ffffff;
+  text-align: start;
+  font-size: 20px;
+}
+
+.bbb {
+  position: absolute;
+  top: 44%;
+  left: 27%;
+}
+.bottom-cont {
+  /* position: absolute; */
+  background-color: #eb820f;
+  height: 400px;
+  border: 2px solid #eb820f;
+  width: 100%;
+  top: 50%;
+  z-index: -1;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.bottom-imgs {
+  position: absolute;
+  top: -16%;
+  left: 50%;
+  height: 400px;
+  width: 32%;
+}
+
+@media (max-width:1300px) {
+  
+.bottom-imgs {
+  position: absolute;
+  top: -16%;
+  left: 50%;
+  height: 400px;
+  width: 33%;
+}
+  
+}
+
+@media (max-width:1200px) {
+  .bottom-imgs {
+    position: absolute;
+    top: -10%;
+    left: 51%;
+    height:370px;
+    width: 38%;
+  }
+  .sec-container h2 {
+    color: #ffffff;
+    position: absolute;
+    top: 16%;
+    left: 24%;
+    z-index: 1;
+    font-size: 20px;
+  }
+  
+  .sec-container p {
+    position: absolute;
+    top: 23%;
+    left: 24%;
+    color: #ffffff;
+    text-align: start;
+    font-size: 17px;
+  }
+  
+  .bbb {
+    position: absolute;
+    top: 44%;
+    left: 24%;
+  }
+  
+.imggggsss {
+  position: absolute;
+  top: 13%;
+  left: 22%;
+  height: 250px;
+  width: 60%;
+}
+}
+
+
+@media (max-width:900px) {
+  .top-bottom-container {
+    padding: 10px 0px 0px 0px;
+    width: 100%;
+    /* height: 54vh; */
+    height: 100%;
+  }
+  .bottom-imgs {
+    position: absolute;
+    top: -15%;
+    left: 52%;
+    height:370px;
+    width: 43%;
+  }
+  .sec-container h2 {
+    color: #ffffff;
+    position: absolute;
+    top: 14%;
+    left: 20%;
+    z-index: 1;
+    font-size: 20px;
+  }
+  
+  .sec-container p {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    color: #ffffff;
+    text-align: start;
+    font-size: 14px;
+  }
+  
+  .bbb {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+  }
+  
+.imggggsss {
+  position: absolute;
+  top: 13%;
+  left: 17%;
+  height: 220px;
+  width: 70%;
+}
+.bottom-cont {
+  /* position: absolute; */
+  background-color: #eb820f;
+  height: 350px;
+  border: 2px solid #eb820f;
+  width: 100%;
+  top: 50%;
+  z-index: -1;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+}
+
+
+
+
+@media (max-width:600px) {
+  .top-bottom-container {
+    padding: 50px 0px 0px 0px;
+    width: 100%;
+    /* height: 54vh; */
+    height: 100%;
+  }
+  .bottom-imgs {
+    position: absolute;
+    top: -17%;
+    left: 50%;
+    height:370px;
+    width: 50%;
+  }
+  .sec-container h2 {
+    color: #ffffff;
+    position: absolute;
+    top: 21%;
+    left: 13%;
+    z-index: 1;
+    font-size: 18px;
+  }
+  
+  .sec-container p {
+    position: absolute;
+    top: 28%;
+    left: 13%;
+    color: #ffffff;
+    text-align: start;
+    font-size: 13px;
+    max-width: 60%;
+  }
+  
+  .bbb {
+    position: absolute;
+    top: 49%;
+    left: 13%;
+  }
+  
+.imggggsss {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  height: 200px;
+  width: 80%;
+}
+.bottom-cont {
+  /* position: absolute; */
+  background-color: #eb820f;
+  height: 300px;
+  border: 2px solid #eb820f;
+  width: 100%;
+  top: 50%;
+  z-index: -1;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+}
+
+
+
+
+
+@media (max-width:400px) {
+  .top-bottom-container {
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+    /* height: 54vh; */
+    height: 100%;
+  }
+  /* *{
+    margin-top: 20px;
+  } */
+  .bottom-imgs {
+    position: absolute;
+    top: -10%;
+    left: 42%;
+    height:320px;
+    width: 70%;
+  }
+  .sec-container h2 {
+    color: #ffffff;
+    position: absolute;
+    top: 21%;
+    left: 10%;
+    z-index: 1;
+    font-size: 15px;
+  }
+  
+  .sec-container p {
+    position: absolute;
+    top: 28%;
+    left: 10%;
+    color: #ffffff;
+    text-align: start;
+    font-size: 12px;
+    max-width: 60%;
+  }
+  
+  .bbb {
+    position: absolute;
+    top: 49%;
+    left: 10%;
+  }
+  
+.imggggsss {
+  position: absolute;
+  top: 20%;
+  left: 05%;
+  height: 200px;
+  width: 90%;
+}
+.bottom-cont {
+  /* position: absolute; */
+  background-color: #eb820f;
+  height: 300px;
+  border: 2px solid #eb820f;
+  width: 100%;
+  top: 50%;
+  z-index: -1;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+}
+

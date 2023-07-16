@@ -1,0 +1,318 @@
+.getintouch-container {
+  display: flex;
+  position: relative;
+  height: 90vh;
+}
+
+.getintouch-image {
+  flex: 1;
+}
+
+.getintouch-image img {
+  position: absolute;
+  top: -15%;
+  left: -01%;
+  height: 690px;
+  width: 35%;
+}
+
+.getintouch-form {
+  flex: 1;
+  padding-top: 50px;
+}
+
+.form-container {
+  /* text-align: center; */
+  /* margin: 0px 200px 0px 200px; */
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.form-container h1 {
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.names-input-boxes {
+  background-color: #eb820f;
+  border: none;
+  border-radius: 5px;
+  min-width: 300px;
+  height: 40px;
+  color: white;
+  margin-bottom: 25px;
+  padding-left: 10px;
+  font-size: 16px;
+  outline: none;
+}
+
+.names-input-boxes-textarea{
+  background-color: #eb820f;
+  border: none;
+  border-radius: 5px;
+  min-width: 300px;
+  height: auto;
+  color: white;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  font-size: 16px;
+  outline: none;
+}
+
+.names-input-boxes-textarea::placeholder{
+  color: white;
+  font-size: 18px;
+}
+.names-input-boxes::placeholder {
+  color: white;
+  font-size: 18px;
+}
+.error-message-classname{
+  background-color: #eb820f;
+  border: none;
+  border-radius: 5px;
+  min-width: 300px;
+  height: 40px;
+  color: white;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  font-size: 16px;
+  outline: none;
+
+}
+
+.error-message-classname::placeholder{
+  color: white;
+}
+.mmmmm {
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.error-message{
+  color: rgb(225, 9, 9);
+  margin: 0px 0px 0px 0px;
+  
+}
+
+@media (max-width: 1300px) {
+  .getintouch-image img {
+    position: absolute;
+    top: -18%;
+    left: -01%;
+    height: 600px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .getintouch-container {
+    height: 75vh;
+  }
+  .names-input-box {
+    background-color: #eb820f;
+    border: none;
+    border-radius: 5px;
+    min-width: 280px;
+    height: 40px;
+    color: white;
+    margin-bottom: 25px;
+    padding-left: 20px;
+    font-size: 18px;
+    outline: none;
+  }
+
+  .form-container {
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* margin: 0px 70px 0px 70px; */
+  }
+
+  .form-container h1 {
+    letter-spacing: 2px;
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 900px) {
+  .getintouch-container {
+    display: flex;
+    position: relative;
+    height: 60vh;
+  }
+  .getintouch-image img {
+    position: absolute;
+    top: -11%;
+    left: -01%;
+    height: 500px;
+    width: 55%;
+  }
+  .form-container {
+    /* text-align: center; */
+    margin: 0px 50px 0px 00px;
+    margin-left: 20px;
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-container h1 {
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .names-input-boxes {
+    margin-right: 0px;
+    padding-right: 0px;
+    background-color: #eb820f;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 14px;
+    outline: none;
+    min-width: 200px;
+    max-height: 28px;
+  }
+  .error-message-classname{
+    background-color: #eb820f;
+    border: none;
+    border-radius: 5px;
+    min-width: 200px;
+    height: 40px;
+    color: white;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+    outline: none;
+  
+  }
+  .names-input-boxes::placeholder {
+    color: white;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 600px) {
+  .getintouch-container {
+    display: flex;
+    position: relative;
+    height: 35vh;
+  }
+  .getintouch-image img {
+    position: absolute;
+    top: -50%;
+    left: -01%;
+    height: 450px;
+    width: 55%;
+  }
+  .getintouch-form {
+    padding-top: 0px;
+  }
+  .form-container {
+    /* text-align: center; */
+    margin: 0px 20px 0px 00px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .form-container h1 {
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .names-input-boxes {
+    background-color: #eb820f;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 12px;
+    outline: none;
+  }
+  .names-input-boxes::placeholder {
+    color: white;
+    font-size: 12px;
+  }
+  .error-message-classname{
+    background-color: #eb820f;
+    border: none;
+    border-radius: 5px;
+    min-width: 200px;
+    height: 28px;
+    color: white;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+    outline: none;
+  
+  }
+  .names-input-boxes-textarea{
+    background-color: #eb820f;
+    border: none;
+    border-radius: 5px;
+    min-width: 200px;
+    max-height: 28px;
+    color: white;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    font-size: 12px;
+    outline: none;
+    padding-top: 5px;
+  }
+
+  .names-input-boxes-textarea::placeholder{
+    font-size: 12px;
+    padding-top: 3px;
+  }
+  
+  
+}
+
+@media (max-width: 490px) {
+  .getintouch-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 80vh;
+    padding-top: 180px;
+    margin: 0px;
+  }
+  .getintouch-image img {
+    position: absolute;
+    top: -5%;
+    left: -01%;
+    height: 400px;
+    width: 70%;
+    z-index: 1;
+    
+  }
+  .getintouch-form {
+    position: static;
+    padding-top: 200px;
+  }
+}
+
+
+@media (min-width:900px) and (min-height:1400px) {
+
+.getintouch-container{
+
+  height: 30vh;
+}
+}
+
+@media (min-width:760px) and (min-height:1020px) {
+  .getintouch-container{
+
+    height: 30vh;
+  }
+}
